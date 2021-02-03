@@ -1,0 +1,23 @@
+{
+  "name": "wednesday-javascript-challenge",
+  "version": "1.0.0",
+  "description": "CodeJourneys wednesday-javascript-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejourneys-org/wednesday-javascript-challenge.git"
+  },
+  "author": "@MoodyBones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codejourneys-org/wednesday-javascript-challenge/issues"
+  },
+  "homepage": "https://github.com/codejourneys-org/wednesday-javascript-challenge#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
