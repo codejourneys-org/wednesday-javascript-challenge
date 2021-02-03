@@ -6,6 +6,8 @@ Every Wednesday in February 2021 we will share a JavaScript Challenge. The chall
 
 **The Sum Of A Range** - [link to challenge](https://eloquentjavascript.net/04_data.html#h_TcUD2vzyMe) - [write your solutions here](https://jsbin.com/zufefobuju/edit?js,output)
 
+Today's JavaScript Challenge is from [Chapter 4: Data Structures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
+
 The introduction of this book alluded to the following as a nice way to compute the sum of a range of numbers:
 `console.log(sum(range(1, 10)));`
 
