@@ -1,6 +1,6 @@
 # 2021-02-03 Challenge - Week 1
 
-**The Sum Of A Range** - [link to challenge](https://eloquentjavascript.net/04_data.html#h_TcUD2vzyMe) - [write your solutions here](https://jsbin.com/zufefobuju/edit?js,output)
+**The Sum Of A Range** - [link to challenge](https://eloquentjavascript.net/04_data.html#h_TcUD2vzyMe)
 
 Today's JavaScript Challenge is from [Chapter 4: Data Structures: Objects and Arrays](https://eloquentjavascript.net/04_data.html)
 
@@ -16,19 +16,18 @@ The introduction of this book alluded to the following as a nice way to compute 
 **C)** As a bonus assignment, modify your range function to take an optional third argument that indicates the “step” value used when building the array. If no step is given, the elements go up by increments of one, corresponding to the old behavior. The function call range(1, 10, 2) should return [1, 3, 5, 7, 9]. Make sure it also works with negative step values so that range(5, 2, -1) produces [5, 4, 3, 2].
 `console.log(range(5, 2, -1)); // → [5, 4, 3, 2]`
 
-**Share**
+## Info
 
-- [Use this jsbin to write & test your solutions](https://jsbin.com/zufefobuju/edit?js,output) then share a link to your copy in this channel. Or simply share in a code block, you can write it however you prefer!
 - Remember to add notes that explain your coding decisions.
 
-**Need help?**
+### Need help?
 
 - Read [Chapter 4: Data Structures: Objects and Arrays](https://eloquentjavascript.net/04_data.html),
 - Google,
 - or, post questions here and we can try and find solutions together. But please try and find the answers on your own first :)
 
-**Deadline**
+### Deadline
 
-- I will post my solution here tomorrow to give everyone time to work on it.
+- I will post my solution here on thursday to give everyone time to work on it.
 - Feel free to share your solution or questions before then.
 - Good luck and please shout if you need help!
