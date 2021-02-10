@@ -22,7 +22,7 @@ We encourage you to **code along and share your knowledge**!
 ## Challenges
 
 - [Week 1 - 2021-02-03](./challenges/2021-02-03/README.md)
-- [Week 2- 2021-02-10](./challenges/2021-02-10/README.md)
+- [Week 2 - 2021-02-10](./challenges/2021-02-10/README.md)
 
 ## :star: Share
 
