@@ -21,17 +21,18 @@ We encourage you to **code along and share your knowledge**!
 
 ## Challenges
 
-* [Week 1 - 2021-02-03](./challenges/2021-02-03/README.md)
+- [Week 1 - 2021-02-03](./challenges/2021-02-03/README.md)
+- [Week 2- 2021-02-10](./challenges/2021-02-10/README.md)
 
 ## :star: Share
 
-You can partecipate here on GitHub [adding your solution to any "challenge"](./challenges/how-to.md), or creating a new [JsBin](https://jsbin.com/?html,output) and sharing it in [our Slack channel](https://codejourneys.org/join-us/). 
+You can partecipate here on GitHub [adding your solution to any "challenge"](./challenges/how-to.md), or creating a new [JsBin](https://jsbin.com/?html,output) and sharing it in [our Slack channel](https://codejourneys.org/join-us/).
 
 Or simply share in a code block, in a [Tweet](https://codejourneys.org), in an e-mail :) Write it however you prefer!
 
 ## :pray: Need help?
 
-Post questions in our Slack Channel and we can try and find solutions together. 
+Post questions in our Slack Channel and we can try and find solutions together.
 
 But please try and find the answers on your own first :)
 
@@ -48,16 +49,18 @@ Good luck and please shout if you need help! :dancer: :tada:
 <br >
 
 ### How to run test
+
 1. Npm install <br />
-``` npm install ```
+   `npm install`
 
 2. Run test (once) <br />
-```npm test $path ``` ($path = relative path of your JS file) 
+   `npm test $path ` ($path = relative path of your JS file)
 
 3. Run test (watch) <br />
-```npm test:watch $path ``` ($path = relative path of your JS file) 
+   `npm test:watch $path ` ($path = relative path of your JS file)
 
 ## Get in touch
-* [Website](https://codejourneys.org)
-* [Twitter](https://twitter.com/codejourneys)
-* [Youtube](https://www.youtube.com/channel/UCERImYb7mm2_0txhQyXhVqA)
+
+- [Website](https://codejourneys.org)
+- [Twitter](https://twitter.com/codejourneys)
+- [Youtube](https://www.youtube.com/channel/UCERImYb7mm2_0txhQyXhVqA)
