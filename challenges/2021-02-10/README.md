@@ -56,3 +56,13 @@ We want to make it as easy as possible to get involved!
 - I will post my solution here tomorrow to give everyone time to work on it.
 - Feel free to share your solution or questions before then.
 - Good luck and [please shout if you need help](https://twitter.com/_moodybones)!
+
+### Hints
+
+The easiest way to do this is to store an array of group members in an instance property. The `includes` or `indexOf` methods can be used to check whether a given value is in the array.
+
+Your class’s constructor can set the member collection to an empty array. When `add` is called, it must check whether the given value is in the array or add it, for example with `push`, otherwise.
+
+Deleting an element from an array, in `delete`, is less straightforward, but you can use `filter` to create a new array without the value. Don’t forget to overwrite the property holding the members with the newly filtered version of the array.
+
+The `from` method can use a `for`/`of` loop to get the values out of the iterable object and call `add` to put them into a newly created group.
