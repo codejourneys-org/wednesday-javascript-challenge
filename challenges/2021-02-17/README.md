@@ -2,7 +2,7 @@
 
 ## Regex Golf
 
-### Today's JavaScript Challenge is from [Chapter 9: Regular Expressions](<[https://eloquentjavascript.net/06_object.html](https://eloquentjavascript.net/09_regexp.html)>).
+### Today's JavaScript Challenge is from [Chapter 9: Regular Expressions](https://eloquentjavascript.net/06_object.html).
 
 [Exercise on Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html#h_TcUD2vzyMe) | [Try to solve it on jsbin](https://jsbin.com/reposozima/edit?js,console) | [Link to main GitHub repo](https://github.com/codejourneys-org/wednesday-javascript-challenge)
 
