@@ -4,7 +4,7 @@
 
 ### Today's JavaScript Challenge is from [Chapter 9: Regular Expressions](<[https://eloquentjavascript.net/06_object.html](https://eloquentjavascript.net/09_regexp.html)>).
 
-[Exercise on Eloquent JavaScript](<[https://eloquentjavascript.net/06_object.html#i_rpYp9Ou4LG](https://eloquentjavascript.net/09_regexp.html#h_TcUD2vzyMe)>) | [Try to solve it on jsbin](<[https://jsbin.com/reposozima/edit?js,console](https://jsbin.com/reposozima/edit?js,console)>) | [Link to main GitHub repo](https://github.com/codejourneys-org/wednesday-javascript-challenge)
+[Exercise on Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html#h_TcUD2vzyMe) | [Try to solve it on jsbin](https://jsbin.com/reposozima/edit?js,console) | [Link to main GitHub repo](https://github.com/codejourneys-org/wednesday-javascript-challenge)
 
 *Code golf* is a term used for the game of trying to express a particular program in as few characters as possible. Similarly, *regexp golf* is the practice of writing as tiny a regular expression as possible to match a given pattern, and *only* that pattern.
 
@@ -62,13 +62,13 @@ function verify(regexp, yes, no) {
 We want to make it as easy as possible to get involved!
 
 - You can participate on GitHub [adding your solution to any "challenge"](https://github.com/codejourneys-org/wednesday-javascript-challenge/blob/main/challenges/how-to.md). Jest is setup for writing tests,
-- Use [this jsbin](<[https://jsbin.com/reposozima/edit?js,console](https://jsbin.com/reposozima/edit?js,console)>) to write & test your solutions then share a link to your copy in this channel.
+- Use [this jsbin](https://jsbin.com/reposozima/edit?js,console) to write & test your solutions then share a link to your copy in this channel.
 - Or simply share in a code block, please write it however you prefer!
 - **_Remember to add notes that explain your coding decisions._**
 
 ### Need help?
 
-- Read [Chapter 9: Regular Expressions](<[https://eloquentjavascript.net/06_object.html](https://eloquentjavascript.net/09_regexp.html)>) - the [chapter summary](https://eloquentjavascript.net/09_regexp.html#h_ErccPg/l98) has a great overview & reference table,
+- Read [Chapter 9: Regular Expressions](https://eloquentjavascript.net/06_object.html) - the [chapter summary](https://eloquentjavascript.net/09_regexp.html#h_ErccPg/l98) has a great overview & reference table,
 - Beau Carnes from [freeCodeCamp](https://www.freecodecamp.org/) has an awesome [RegEx course on Scrimba](https://scrimba.com/learn/regularexpressions). Scrimba has a super chill screencast platform where you get to code along with your Teacher.
 - It is almost unavoidable that, in the course of working on these exercises, you will get confused and frustrated by some regular expression’s inexplicable behavior. Sometimes it helps to enter your expression into an online tool like [https://debuggex.com](https://debuggex.com/) to see whether its visualization corresponds to what you intended and to experiment with the way it responds to various input strings.
 - Google,
