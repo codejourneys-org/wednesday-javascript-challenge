@@ -2,7 +2,7 @@
 
 ## Regex Golf
 
-### Today's JavaScript Challenge is from [Chapter 9: Regular Expressions](https://eloquentjavascript.net/06_object.html).
+### Today's JavaScript Challenge is from [Chapter 9: Regular Expressions](https://eloquentjavascript.net/09_regexp.html).
 
 [Exercise on Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html#h_TcUD2vzyMe) | [Try to solve it on jsbin](https://jsbin.com/reposozima/edit?js,console) | [Link to main GitHub repo](https://github.com/codejourneys-org/wednesday-javascript-challenge)
 
@@ -68,7 +68,7 @@ We want to make it as easy as possible to get involved!
 
 ### Need help?
 
-- Read [Chapter 9: Regular Expressions](https://eloquentjavascript.net/06_object.html) - the [chapter summary](https://eloquentjavascript.net/09_regexp.html#h_ErccPg/l98) has a great overview & reference table,
+- Read [Chapter 9: Regular Expressions](https://eloquentjavascript.net/09_regexp.html) - the [chapter summary](https://eloquentjavascript.net/09_regexp.html#h_ErccPg/l98) has a great overview & reference table,
 - Beau Carnes from [freeCodeCamp](https://www.freecodecamp.org/) has an awesome [RegEx course on Scrimba](https://scrimba.com/learn/regularexpressions). Scrimba has a super chill screencast platform where you get to code along with your Teacher.
 - It is almost unavoidable that, in the course of working on these exercises, you will get confused and frustrated by some regular expression’s inexplicable behavior. Sometimes it helps to enter your expression into an online tool like [https://debuggex.com](https://debuggex.com/) to see whether its visualization corresponds to what you intended and to experiment with the way it responds to various input strings.
 - Google,
