@@ -4,44 +4,44 @@ class Group {
   }
 
   add(value) {
-    if (!this.collection.includes(value)) {
-      // console.log(`add ${value}`) // to test
-      return this.collection.push(value)
+    if (!this.has(value)) {
+      this.collection.push(value)
     }
   }
 
   delete(value) {
-    return (this.collection = this.collection.filter((item) => item !== value))
+    if (this.has(value)) {
+      return (this.collection = this.collection.filter(
+        (item) => item !== value
+      ))
+    }
   }
 
   has(value) {
-    return this.collection.includes(value)
+    return this.collection.some((v) => v === value)
   }
-}
 
-// // uncomment to test class Group
-// const thing = new Group()
-// thing.add(10)
-// console.log(thing.collection)
-// thing.delete(10)
-// console.log(thing.has(10))
+  // static from(obj) {
+  //   let group = new this()
+  //   for (let value of obj) {
+  //     group.add(value)
+  //   }
+  //   return group
+  // }
+}
 
 Group.from = function (obj) {
   let group = new this()
   for (let value of obj) {
     group.add(value)
+    return group
   }
-  console.log(group.collection)
-  console.log(group.has(10)) // → true
-  console.log(group.has(30)) // → false
-
-  group.add(10)
-  group.delete(10)
-
-  console.log(group.has(10)) // → false
+  return this.collection
 }
 
-let group = Group.from([10, 20])
+module.exports = Group
+
+// let group = Group.from([10, 20])
 
 // Notes,
 // I don't still don't understand static function yet

@@ -1,25 +1,46 @@
-const { it } = require('@jest/globals')
-const { sum, range, steps } = require('./index')
+const Group = require('./index')
 
-// A
-it('Returns an array containing all the numbers from start up to (and including) end', () => {
-  expect(range(1, 10)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+it('adds a value', () => {
+  const g = new Group()
+  g.add(10)
+  expect(g.collection).toEqual([10])
 })
 
-// B
-it('Returns an array of numbers and returns the sum of these numbers', () => {
-  expect(sum(range(1, 10))).toEqual(55)
+it(`doesn't add a value if it already exists`, () => {
+  const g = new Group()
+  g.add(10)
+  g.add(10)
+  expect(g.collection).toEqual([10])
 })
 
-// C
-it('Returns an array containing all the numbers from start up to end that increment by step', () => {
-  expect(steps(1, 10, 2)).toEqual([1, 3, 5, 7, 9])
+it(`removes an element by value`, () => {
+  const g = new Group()
+  g.add(10)
+  g.add('hello')
+  g.add(14)
+  g.add(null)
+  g.delete(14)
+  expect(g.collection).toEqual([10, 'hello', null])
 })
 
-it('Make sure it also works with negative step values', () => {
-  expect(steps(5, 2, -1)).toEqual([5, 4, 3, 2])
+it('returns true if the value exists', () => {
+  const g = new Group()
+  g.add(10)
+  expect(g.has(10)).toEqual(true)
 })
 
-it('If no step is given, the elements go up by increments of one', () => {
-  expect(steps(1, 10)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+it(`returns false if the value doesn't exists`, () => {
+  const g = new Group()
+  g.add(10)
+  expect(g.has(11)).toEqual(false)
 })
+
+// it(`creates value from iterable`, () => {
+//   const g = Group.from([1, 2, 3])
+//   expect(g.collection).toEqual([1, 2, 3])
+// })
+
+// it(`creates value from iterable`, () => {
+//   const g = Group.from('asd')
+//   expect(g.collection).toEqual(['a', 's', 'd'])
+// })
