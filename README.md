@@ -24,6 +24,7 @@ We encourage you to **code along and share your knowledge**!
 - [Week 1 - 2021-02-03](./challenges/2021-02-03/README.md)
 - [Week 2 - 2021-02-10](./challenges/2021-02-10/README.md)
 - [Week 3 - 2021-02-17](./challenges/2021-02-17/README.md)
+- [Week 4 - 2021-02-24](./challenges/2021-02-24/README.md)
 
 ## :star: Share
 
