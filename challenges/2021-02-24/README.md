@@ -4,7 +4,7 @@
 
 ### Today's JavaScript Challenge is from [Chapter 15: Handling Events](https://eloquentjavascript.net/15_event.html).
 
-[Exercise on Eloquent JavaScript](https://eloquentjavascript.net/15_event.html#h_TcUD2vzyMe) | [Try to solve it on jsbin](https://jsbin.com/debisazafu/edit?html,js,output) | [Link to main GitHub repo](https://github.com/codejourneys-org/wednesday-javascript-challenge)
+[Exercise on Eloquent JavaScript](https://eloquentjavascript.net/15_event.html#h_TcUD2vzyMe) | [Try to solve it on jsbin](https://jsbin.com/debisazafu/edit?html,js,output) | [Link to main GitHub repo](https://github.com/codejourneys-org/wednesday-javascript-challenge) | [CodePen Template](https://codepen.io/MoodyBones/pen/MWbrxwM)
 
 Write a page that displays a balloon (using the balloon emoji, 🎈). When you press the up arrow, it should inflate (grow) 10 percent, and when you press the down arrow, it should deflate (shrink) 10 percent.
 
@@ -20,6 +20,7 @@ We want to make it as easy as possible to get involved!
 
 - You can participate on GitHub [adding your solution to any "challenge"](https://github.com/codejourneys-org/wednesday-javascript-challenge/blob/main/challenges/how-to.md). Jest is setup for writing tests,
 - Use [this jsbin](https://jsbin.com/debisazafu/edit?html,js,output) to write & test your solutions then share a link to your copy in this channel.
+- **Here's a groovy [CodePen Template](https://codepen.io/MoodyBones/pen/MWbrxwM) you can fork & restyle. It's set up with TailwindCSS.**
 - Or simply share in a code block, please write it however you prefer!
 - **_Remember to add notes that explain your coding decisions._**
 
