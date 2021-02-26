@@ -1,0 +1,15 @@
+body {
+    margin: 3px;
+    background-color: khaki;
+    font-family: "Comic Neue";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button {
+    margin-left: 200px;
+}
+.balloon {
+    margin-left: 200px;
+    margin-top: 150px;
+}
