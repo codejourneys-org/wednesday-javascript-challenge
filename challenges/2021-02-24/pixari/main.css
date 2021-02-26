@@ -1,0 +1,28 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Titan+One&display=swap");
+
+:root {
+  --color-bg: rgba(199, 210, 254, 1);
+  --color-primary: #e056fd;
+  --color-secondary: #686de0;
+  --font-primary: "Comic Neue", cursive;
+  --font-heading: "Titan One", cursive;
+
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-bg);	
+}
+
+h1 {
+  font-family: var(--font-heading);
+}
+
+.shadow-solid-primary {
+  box-shadow: 6px 6px var(--color-primary);
+}
+
+.shadow-solid-secondary {
+  box-shadow: 6px 6px var(--color-secondary);
+}

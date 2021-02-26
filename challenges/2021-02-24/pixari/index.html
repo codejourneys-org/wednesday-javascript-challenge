@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wednesday JavaScript Challenge: Week 4 | Balloon</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="./main.css" rel="stylesheet">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="app h-screen p-20 sm:p-30 flex flex-col items-center">
+    <div class="max-w-sm h-80">
+      <div class="font-bold pb-1 text-xl">Week 4: Balloon</div>
+
+      <div class="flex flex-col justify-between border-2 border-black rounded-sm">
+
+        <header class="border-b-2 border-black bg-white bg-opacity-80 text-black p-2 sm:py-4">
+
+          <h1 class="text-4xl sm:text-5xl text-center ">Wednesday JavaScript Challenge</h1>
+        </header>
+        <div class="h-40 flex justify-center items-center">
+          <span id="balloon" class="emoji-balloon" style="font-size: 12px;">🎈</span>
+          <span class="emoji-pop hidden">💥</span>
+
+        </div>
+        <div class="flex justify-center space-x-10 px-3 pb-6">
+
+          <button
+            class="text-xl uppercase rounded-sm shadow-sm border-2 font-bold border-black py-3 px-4 transition-all ease-out duration-500 bg-white bg-opacity-80 hover:bg-black text-black hover:text-gray-100 shadow-solid-primary"><svg
+              class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18">
+              </path>
+            </svg></button>
+          <button
+            class="text-xl uppercase rounded-sm shadow-sm border-2 font-bold border-black py-3 px-4 transition-all ease-out duration-500 bg-white bg-opacity-80 hover:bg-black text-black hover:text-gray-100 shadow-solid-secondary"><svg
+              class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3">
+              </path>
+            </svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
